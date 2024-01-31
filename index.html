@@ -15,5 +15,15 @@
             <a id="yes" href="yes.html">YES</a>
         </div>
     </div>
+    <script>
+        const button = document.getElementById('no');
+        button.addEventListener('mouseover', function () {
+            button.style.left = `${Math.ceil(Math.random() * 90)}%`;
+            button.style.top = `${Math.ceil(Math.random() * 90)}%`;
+        });
+        button.addEventListener('click', function () {
+            alert('you clicked me')
+        })
+    </script>
 </body>
 </html>
