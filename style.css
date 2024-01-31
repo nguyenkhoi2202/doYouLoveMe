@@ -29,6 +29,8 @@ a{
 }
 #no{
     color:red; background: #eee;margin-right: 50px;
+	position: absolute;
+            transition: .5s;
 }
 #yes{
     color:green;background: #eee;
